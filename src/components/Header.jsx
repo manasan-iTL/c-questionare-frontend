@@ -11,21 +11,13 @@ import Stack from '@mui/material/Stack'
 
 const Header = () => {
     return (
-        <Box component="header">
-            <AppBar position="static">
-                <Toolbar>
-                    <Typography variant="h4" sx={{ flexGrow: 1 }}>
+        <header className={classes.header}>
+            <h1 className={`${classes.heading}`}>
+                <Link href="#" className={classes.link}>
                         C-questionare
-                    </Typography>
-                    <IconButton>
-                        <MenuIcon />
-                    </IconButton>
-                    <Menu>
-                        <MenuItem>アンケート一覧</MenuItem>
-                    </Menu>
-                </Toolbar>
-            </AppBar>
-        </Box>
+                </Link>
+            </h1>
+        </header>
     )
 }
 
