@@ -34,6 +34,24 @@ const Header = () => {
                 <span className={classes.hamburger_line}></span>
                 <span className={classes.hamburger_line}></span>
             </div>
+            <div className={`${classes.menu} ${hamburgerIsOpen? classes.active: ""}`}>
+                <nav>
+                    <ul className={classes.menu_box}>
+                        <li>
+                            <Link href="#" className={classes.menu_item}>アンケート一覧</Link>
+                        </li>   
+                        <li>
+                            <Link href="#" className={classes.menu_item}>アンケート投稿</Link>
+                        </li>
+                        <li>
+                            <Link href="#" className={classes.menu_item}>イベント掲示板</Link>
+                        </li>
+                        <li>
+                            <Link href="#" className={classes.menu_item}>お問い合わせ</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
     )
 }
