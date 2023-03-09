@@ -1,0 +1,16 @@
+
+.tab {
+    background-color: #FFFFFF;
+    padding: 20px;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.tab_text {
+    display: block;
+    color: #000000;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
