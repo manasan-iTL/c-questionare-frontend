@@ -1,4 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #F4E285;
+    font-size: 16px;
 }
