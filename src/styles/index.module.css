@@ -1,0 +1,14 @@
+
+.mask {
+    background-color: #F4E285;
+}
+
+.main_container {
+    padding-top: 30px;
+}
+
+.visual_box {
+    position: relative;
+    background-color: white;
+    height: 300px;
+}
