@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Header from '@/components/Header'
+import classes from '@/styles/index.module.css'
+import LinkButton from '@/components/LinkButton'
+import TabGroup from '@/components/TabGroup'
 
 export default function Home() {
   return (
@@ -11,7 +14,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <h1>C-questionare</h1>
+      <div className={classes.mask}>
+        <div className={classes.visual_box}>
+          <img src="" alt="" />
+          <LinkButton link="#" text="C-questionareについて" isAbsolute={true}/>
+        </div>
+        <main className={classes.main_container}>
+          <TabGroup />
+        </main>
+      </div>
     </>
   )
 }
