@@ -1,0 +1,21 @@
+
+.link_button_outer {
+    width: 350px;
+}
+
+.link_button_inner {
+    display: block;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #DB504A;
+    color: #FFFFFF;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.float_button {
+    position: absolute;
+    top: 95%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+}
