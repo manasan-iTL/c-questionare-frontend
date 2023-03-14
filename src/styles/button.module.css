@@ -1,0 +1,27 @@
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    min-width: 350px;
+    min-width: 250px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.primary {
+    color: #FFFFFF;
+    font-size: 1.8em;
+    background-color: #2B3A67;
+}
+
+.dark {
+    color: black;
+    font-size: 1.3em;
+    background-color: #9CAFB7;
+    border: none;
+}
