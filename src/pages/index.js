@@ -3,6 +3,9 @@ import Header from '@/components/Header'
 import classes from '@/styles/index.module.css'
 import LinkButton from '@/components/LinkButton'
 import TabGroup from '@/components/TabGroup'
+import QuestionnaireGroup from '@/components/QustionnaireGroup'
+import HeadingLabel from '@/components/HeadingLabel'
+import PostArea from '@/components/PostArea'
 
 export default function Home() {
   return (
@@ -21,6 +24,10 @@ export default function Home() {
         </div>
         <main className={classes.main_container}>
           <TabGroup />
+          <PostArea>
+            <HeadingLabel text="最新投稿アンケート"/>
+            <QuestionnaireGroup />
+          </PostArea>
         </main>
       </div>
     </>
