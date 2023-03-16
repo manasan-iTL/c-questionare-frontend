@@ -2,7 +2,15 @@
 .label {
     width: fit-content;
     padding: 10px 20px;
-    background-color: #9CAFB7;
     font-size: 1.3em;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.gray {
+    background-color: #9CAFB7;
+}
+
+.white {
+    background-color: #FFFFFF;
+    text-decoration: underline solid #000000 1px;
 }
