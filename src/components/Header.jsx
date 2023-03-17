@@ -11,8 +11,6 @@ const Header = () => {
         setHamburgerIsOpen((prevSate) => !prevSate)
     }, [])
 
-    console.log(hamburgerIsOpen)
-
     return (
         <header className={classes.header}>
             <h1 className={`${classes.heading}`}>
