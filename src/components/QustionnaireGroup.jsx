@@ -1,11 +1,12 @@
 import Questionnaire from '@/components/Questionnaire'
 import classes from '@/styles/questionnaireGroup.module.css'
 
-const QuestionnaireGroup = () => {
+const QuestionnaireGroup = (props) => {
     return (
         <div className={classes.container}>
-            <Questionnaire isPriority={true}/>
-            <Questionnaire isPriority={true}/>
+            {
+                props.questionnaires?.map(question => <Questionnaire key={question.id} closed_at={question.closed_at} author={question.author} title={question.title} isPriority={question.isPriority} />)
+            }
         </div>
     )
 }
